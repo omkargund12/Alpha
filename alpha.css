@@ -1,0 +1,600 @@
+body{
+    font-family: 'Source Sans 3', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./images/banner\ \(1\).jpg);
+    background-color: #f5f5f5;
+    background-repeat: no-repeat;
+    background-size:100% ;
+}
+#bar{
+    display: none;
+}
+a{
+    text-decoration: none;
+    
+}
+#nav{
+    display:flex;
+    color: white;
+    justify-content: space-between;
+    align-content: center;
+    padding: 0px 1.5rem;
+}
+#nav #left h1{
+    font-size: 1.2rem;
+}
+#nav #left h1 span{
+    font-weight: 100;
+}
+#nav #right #list{
+    display: flex;
+    list-style-type: none;
+    /* align-items: center; */
+}
+#nav #right #list li a{
+    padding: 20px;
+}
+#nav #right ul li{
+    font-size: 1.1rem;
+}
+#nav #right ul li button{
+    width: 6rem;
+    height: 1.8rem;
+    border-radius: 5px;
+    background-color: transparent;
+    color:white;
+    border: 2px solid lightgray;
+}
+
+#right ul li a
+{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+#drop{
+    position: relative;
+}
+#menu{
+    list-style-type: none;
+    padding: 0px;
+    position: absolute;
+    top: 100%;
+    left: -30%;
+    width: 150%;
+    background-color: lightcyan;
+    color: black;
+    display: none;
+    border-radius: 8px;
+}
+#nav #right #menu li a{
+    color: black;
+    border-bottom:1px solid gray ;
+    padding: 10px;
+}
+#drop:hover #menu{
+    display: block;
+}
+#nav #right #menu li a:hover{
+    background-color: orangered;
+    color: white;
+}
+#drop{
+    position: relative;
+}
+/* #menu1{
+    list-style-type: none;
+    padding: 0px;
+    position: absolute;
+    top: 0%;
+    right: 100%;
+    width: 150%;
+    background-color: white;
+    display: none;
+    border-radius:8px ;
+}
+#nav #right #menu1 li a{
+    color: black;
+    border-bottom:1px solid gray ;
+    padding: 10px;
+}
+#drop1:hover #menu1{
+    display: block;
+}
+#nav #right #menu1 li a:hover{
+    background-color: orangered;
+    color: white;
+} */
+#drop2{
+    position: relative;
+}
+#menu1{
+    position:absolute;
+    list-style: none;
+    padding: 0px;
+    right: 100%; 
+    top: 0px;
+    width: 75%; 
+    background-color:lightcyan;
+    color:black;  
+    display: none;
+}
+#drop2 #menu1 li {
+    border-bottom: 1px solid black;
+    padding: 3px;
+}
+#drop2:hover #menu1{
+    display: block;
+}
+
+#nav #right #menu #drop2 #menu1 li a:hover{
+    background-color:orangered;
+    color: white;
+}
+
+#alpha{
+    text-align: center;
+    color: white;
+    margin-top:3.7rem;
+}
+#alpha h1{
+    font-size: 3rem;
+    margin-bottom: 0px;
+}
+#alpha p{
+    /* margin-top: 0px; */
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+#alpha button{
+    width: 15%;
+    height: 3.2rem;
+    border-radius: 8px;
+    border: none;
+    color: gray;
+    margin-right: 1rem;
+    color: black;
+}
+#alpha #learn{
+    background-color: transparent;
+    color: white;
+    border: 2px solid lightgray;
+}
+#intro{
+    background-color: white;
+    width: 78%;
+    margin: auto;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 3.8rem;
+    color: grey;
+    margin-top:8rem;
+}
+#intro h1{
+    font-size: 2.3rem;
+}
+#intro p{
+    font-size: 1.4rem;
+    border-top: 2px solid lightgrey;
+    width: 73%;
+     margin: auto;
+    padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
+}
+#intro img{
+    width: 100%;
+}
+
+#sign{
+    background-color: #e89980;
+    color:#f9e6df;
+    margin-top: 3rem;
+    text-align: center;
+}
+#sign h1{
+    font-size: 2.25rem;
+    padding-top: 4rem;
+}
+#sign p{
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+#signup #sign input{
+    background-color:transparent;
+    padding: 0.5rem;
+    margin: 4px;
+    border-radius: 5px;
+}
+#signup #sign #new{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+#signup #sign input::placeholder{
+    color:#f9e6df;
+    
+}
+#btn3{
+    padding:0.5rem ;
+    color: #e899;
+    border: none;
+    border-radius: 5px;
+}
+/*#icons{
+    /* display: flex; */
+    /* justify-content: center ; */
+    
+    /*display: block;
+    padding-top :1.8rem ;
+    margin-top: 8rem;
+    width: 78%;
+    margin: auto;
+    border-radius: 8px;
+    text-align: center;
+    padding-bottom: 2rem;
+    
+
+}*/
+/*#icons #icon{
+
+    background-color: #ffffff;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+}*/
+#icon #on{
+    display: block;
+    width: 39%;
+    float: left;
+    /* padding: 0px; */
+}
+#icon #tw{
+    width: 39%;
+    float: right;
+    /* padding: 0px; */
+}
+#icon #th{
+    width: 39%;
+    float: right;
+    /* padding-top: 3rem; */
+    /* margin: 0px; */
+
+
+}
+#icon #fo{
+     width: 39%;
+     /* float: left; */
+
+     /* margin: 0px; */
+     /* padding-top:3rem; ; */
+     
+    
+}
+#icons #icon  h1{
+    font-size: 1.75em;
+    line-height: 1.5em;
+    letter-spacing: -0.025em;
+}
+
+
+#icons #icon #on i{
+    padding: 1.3rem;
+    font-size: 3rem;
+    background-color: #e89980 ;
+    color: white;
+    border-radius: 100%;
+
+}
+#icons #icon #tw i{
+    padding: 1.3rem;
+    font-size: 3rem;
+    background-color: #7fcdb8  ;
+    color: white;
+    border-radius: 100%;
+
+}
+#icons #icon #th i{
+    padding: 1.3rem;
+    font-size: 3rem;
+    background-color:#e5cb95  ;
+    color: white;
+    border-radius: 100%;
+
+}
+#icons #icon #fo i{
+    padding: 1.3rem;
+    
+    font-size: 3rem;
+    background-color: #90b0ba  ;
+    color: white;
+    border-radius: 100%;
+
+}*
+#social #logo {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    
+    
+}
+
+#image{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* text-align: center; */
+
+    /* width: 78%; */
+    /* margin: auto; */
+    
+}
+#image div{
+    /* width: 39%; */
+    /* background-color:rgba(255, 230, 230, 0.319) ; */
+    gap: 30px;
+    border-radius: 5px;
+    /* margin-top: 50px; */
+    overflow: hidden;
+}
+
+#image #king #natu{
+    /* width: 39%; */
+}
+#image #king {
+    width: 78%;
+    margin: auto;
+    display: flex;
+    padding-top: 1.8rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+#image #king div{
+    background-color:#ffffff;
+    padding-bottom: 2rem;
+}
+#image #king h1{
+    font-size: 1.75em;
+    line-height: 1.5em;
+    letter-spacing: -0.025em;
+    font-weight: 500;
+}
+#image #king #bt{
+    background-color: transparent;
+    box-shadow: inset 0 0 0 2px #e5e5e5;
+    color: #777;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    height: 4em;
+    padding-top: 1rem;
+    /* line-height: 3em; */
+    padding: 0 2em;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    border-radius: 5px;
+    border: 0px solid black;
+
+}
+#image #king p{
+    padding: opx 20px;
+    text-align: center;
+}
+
+#image #king img
+{
+    width: 100%;
+}
+
+ 
+
+#social #logo i{
+    padding: 1.3rem;
+    font-size: 2rem;
+    transition: all 0.3s linear;
+    color:#777;
+    background-color: transparent;
+}
+#social #logo i:hover{
+    transform: scale(1.4);
+}
+#social #credit p{
+    text-align: center;
+    
+}
+#icons{
+    background-color: white;
+    width:78%;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 2rem;
+
+
+
+}
+#icons section{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+}
+#icons div{
+    width: 47%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 2rem;
+    color:grey;
+
+}
+
+
+/*#icons #div1 i{
+    padding: 1.3rem;
+    font-size: 3rem;
+    background-color: #e89980 ;
+    color: white;
+    border-radius: 100%;
+}*/
+.fa-solid.fa-bolt-lightning{
+    color: white;
+    background-color: #e89980 ;
+    font-size: 2.2rem;
+    border-radius:100%;
+    padding:1.5rem 2rem;
+}
+.fa-solid.fa-chart-area{
+    color: white;
+    font-size: 2.2rem;
+    border-radius:100%;
+    padding:1.5rem 2rem;
+    background-color: #7fcdb8;
+
+
+}
+.fa-solid.fa-lock{
+    color: white;
+    font-size: 2.2rem;
+    border-radius:100%;
+    padding:2rem 2rem;
+    background-color: #90b0ba;
+
+
+}
+.fa-solid.fa-cloud{
+    color: white;
+    font-size: 2.2rem;
+    border-radius:100%;
+    padding:2rem 2rem;
+    background-color:  #e5cb95 ;
+    
+}
+#div1{
+    border-bottom:2px solid #e5e5e5;
+    border-right:2px solid #e5e5e5;
+    position: relative;
+    top: 10px;
+    left: 3px;
+
+}
+#div4{
+    border-top:2px solid #e5e5e5;
+    border-left:2px solid #e5e5e5;
+    position: relative;
+    bottom: 2px;
+    top: -13px;
+    
+
+
+}
+
+
+
+
+
+
+@media (max-width:600px) {
+    #bar {
+        display: inline-block;
+        color: white;
+        background-color: rgb(195, 181, 181);
+        padding: 3px 10px;
+        border-radius: 5px;
+        position: sticky;
+        top: 5px;
+        left: 5px;
+    }
+
+    #nav {
+        display: none;
+    }
+
+    body {
+        background-size: 190%;
+         /* horizontal -> x */
+         background-position-x: center;
+    }
+
+    #alpha {
+        width: 80%;
+        margin: 0rem auto;
+    }
+    
+    #alpha button {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    #alpha h1 {
+        font-size: 2rem;
+    }
+    
+    #alpha p {
+        /* margin-top: 0px; */
+        font-size: 1.15rem;
+    }
+
+    #intro {
+        width: 100%;
+        margin-top: 3rem;
+    }
+    
+    #intro h1 {
+        font-size: 1.8rem;
+    }
+    
+    #intro p {
+        width: 90%;
+        margin: auto;
+    }
+    
+    #intro img {
+        width: 0%;
+    }
+    br{
+        display: none;
+    }
+
+}
+@media(max-width:1200px) {
+    #icons div{
+        display: block;
+        border-right: none;
+        border-left:none ;
+        border-top: none;
+        
+        border-bottom: 2px solid #e5e5e5; 
+        margin: auto;
+        text-align: center;
+    }
+    #image #king
+    {
+        display: block;
+    }
+    #image #king #natu{
+        width: 100%;
+    }
+    #image #king #bt{
+        width: 90%;
+    }
+    #image #king #natu1{
+        
+        width: 100%;
+    }
+
+    #signup #sign input{
+
+        text-align: center;
+        width: 65%;
+    }
+    #signup #sign #btn3{
+        margin-bottom: 3rem;
+        width: 67%;
+    }
+    
+    
+}
